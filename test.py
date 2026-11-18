@@ -1,9 +1,7 @@
-nombre_copies = 15
-somme_notes = 187.5
-note_validation = 10
+note_str = "16.75"
 
-moyenne = somme_notes / nombre_copies
-ecart = moyenne - note_validation
+note = float(note_str)
 
-print("Moyenne de la classe :", moyenne)
-print("Écart avec la note de validation :", ecart)
+resultat = note * 3
+
+print("Résultat :", resultat)
