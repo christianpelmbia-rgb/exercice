@@ -1,7 +1,6 @@
-note_str = "16.75"
+note1 = 15.10
+note2 = 15.04
 
-note = float(note_str)
+meilleure_note = max(note1, note2)
 
-resultat = note * 3
-
-print("Résultat :", resultat)
+print("La meilleure note est :", meilleure_note)
