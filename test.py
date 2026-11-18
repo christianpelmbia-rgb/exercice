@@ -1,5 +1,9 @@
-note_cc =12
-note_examen =15
-coef_examen =0,6
-moyenne = note_cc * (1 - coef_examen) + note_examen * coef_examen
-print ("La moyenne pondérée est : ", moyenne )
+nombre_copies = 15
+somme_notes = 187.5
+note_validation = 10
+
+moyenne = somme_notes / nombre_copies
+ecart = moyenne - note_validation
+
+print("Moyenne de la classe :", moyenne)
+print("Écart avec la note de validation :", ecart)
